@@ -74,7 +74,22 @@
                       <Value>=Fields!X1.Value</Value>
                     </SortExpression>
                   </SortExpressions>
-                  <Label>=Fields!X1.Value</Label>
+                  <ChartMembers>
+                    <ChartMember>
+                      <Group Name="Chart1_CategoryGroup1">
+                        <GroupExpressions>
+                          <GroupExpression>=Fields!X2.Value</GroupExpression>
+                        </GroupExpressions>
+                      </Group>
+                      <SortExpressions>
+                        <SortExpression>
+                          <Value>=Fields!X2.Value</Value>
+                        </SortExpression>
+                      </SortExpressions>
+                      <Label>=Fields!X2.Value</Label>
+                    </ChartMember>
+                  </ChartMembers>
+                  <Label>=Fields!COMMENT.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
